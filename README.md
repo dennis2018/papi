@@ -17,3 +17,14 @@ http://127.0.0.1:5000/api/v1/resources/books?id=0
 
 ### [127.0.0.1:5000/api/v1/resources/books?id=2] [127.0.0.1:5000/api/v1/resources/books?id=3]
 http://127.0.0.1:5000/api/v1/resources/books?id=2
+
+## papi api.py
+Before we modify our code, first download the example database from this location and copy the file to your api folder using your graphical user interface. 
+The final version of our API will query this database when returning results to users.
+
+Copy the below code into your text editor. As before, we’ll examine the code more closely once you have it running.
+
+http://127.0.0.1:5000/api/v1/resources/books/all
+http://127.0.0.1:5000/api/v1/resources/books?
+author=Connie+Willis http://127.0.0.1:5000/api/v1/resources/books?
+author=Connie+Willis&published=1999 http://127.0.0.1:5000/api/v1/resources/books?published=2010
