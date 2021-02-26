@@ -12,5 +12,8 @@ http://127.0.0.1:5000/api/v1/resources/books/all
 ## papi api.py
 This file has updated options to filter the search records
 Once you’ve updated your API with the api_id function, run your code as before (python api.py from your api directory) and visit the below URLs to test the new filtering capability:
-[127.0.0.1:5000/api/v1/resources/books?id=0] [127.0.0.1:5000/api/v1/resources/books?id=1]
-[127.0.0.1:5000/api/v1/resources/books?id=2] [127.0.0.1:5000/api/v1/resources/books?id=3]
+### [127.0.0.1:5000/api/v1/resources/books?id=0] [127.0.0.1:5000/api/v1/resources/books?id=1]
+http://127.0.0.1:5000/api/v1/resources/books?id=0
+
+### [127.0.0.1:5000/api/v1/resources/books?id=2] [127.0.0.1:5000/api/v1/resources/books?id=3]
+http://127.0.0.1:5000/api/v1/resources/books?id=2
